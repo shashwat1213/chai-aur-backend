@@ -1,0 +1,17 @@
+{
+  "name": "chai_aur_backend",
+  "version": "1.0.0",
+  "description": "chai or bakend - youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai",
+    "sutta"
+  ],
+  "author": "shashwat jain",
+  "license": "ISC"
+}
