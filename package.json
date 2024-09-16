@@ -2,9 +2,10 @@
   "name": "chai_aur_backend",
   "version": "1.0.0",
   "description": "chai or bakend - youtube",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -13,5 +14,11 @@
     "sutta"
   ],
   "author": "shashwat jain",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai_aur_backend": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
